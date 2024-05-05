@@ -1,7 +1,7 @@
 [{
     "date": "May 29, 2023",
     "title": "Undergradute Final Project",
-    "detail_project": "generic.html",
+    "detail_project": "https://github.com/Nathan24zz/fp-main",
     "image_class": "image fit",
     "image": "images/final-project-web.png",
     "desc": "Create a website to record human movements, and then the robot will follow. The program use Python as a server to communicate with the Javascript client. The server uses socketio library, running on a shared thread with ROS2 nodes."
