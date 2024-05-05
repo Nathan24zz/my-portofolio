@@ -1,4 +1,5 @@
-- Make page to explain project in more detail.
-- Render project overview more efficient.
+- Redirect view project button to more detailed explanation.
 - Make page to write something that I learn.
-- In project page, make date update when we update the content
+
+
+- In project page, make date update when update the content
