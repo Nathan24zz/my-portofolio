@@ -29,6 +29,26 @@
     "detail_desc_2": "By default, PyTorch provides a Keypoint RCNN model which is pre-trained to detect 17 keypoints of the human body (nose, eyes, ears, shoulders, elbows, wrists, hips, knees and ankles). I fine tune the model using custom dataset that contains 6 keypoints of humanoid robot (head, trunk, right hand, left hand, right foot, left foot). Training keypoint estimation is a little bit harder than training object detection because the data has different format depending on the amount of the keypoint. Some of the framework are also only for human pose estimation that consist 17 keypoints so if we want to train with different keypoints, we need to fix it first before we can train the model. The custom dataset is a combination of NimbRo's HumanoidRobotPose dataset and my own dataset. This project is used for my <a href='./index.html'> undergraduate final project</a> and take reference from <a href='https://github.com/AIS-Bonn/HumanoidRobotPoseEstimation'>Nimbro's HumanoidRobotPoseEstimation</a>.",
     "tech": "Python, PyTorch, Transfer Learning"
 }, {
+    "date": "May 29, 2023",
+    "title": "Motion Matching",
+    "detail_project": "https://github.com/Nathan24zz/motion_matching/tree/final-project",
+    "image_class": "image fit",
+    "image": "images/ros.jpg",
+    "desc": "Mapping hand movement of human to robot using MediaPipe and inverse kinematic.",
+    "detail_desc_1": "",
+    "detail_desc_2": "Mapping hand movement of human to robot using MediaPipe and inverse kinematic.",
+    "tech": "ROS2, Inverse Kinematic"
+}, {
+    "date": "Mar 31, 2023",
+    "title": "Pose Comparison",
+    "detail_project": "https://github.com/Nathan24zz/PoseComparison",
+    "image_class": "image fit",
+    "image": "images/pic02.jpg",
+    "desc": "This project is used to compare poses and provide the score afterward.",
+    "detail_desc_1": "",
+    "detail_desc_2": "This project is used to compare poses and provide the score afterward.",
+    "tech": "Python, Jupyter Notebook"
+}, {
     "date": "June 17, 2022",
     "title": "rePLASC",
     "detail_project": "https://github.com/Arnolds18/C22-CE01",
