@@ -11,7 +11,7 @@ fetch("./assets/data/post_data.json")
                 var result = data[i];
                 const content = `
                     <header class="major">
-                        <span class="date">">${result.date}</span>
+                        <span class="date">${result.date}</span>
                         <h1>${result.title}</h1>
                         <p>${result.detail_desc_1}</p>
                     </header>

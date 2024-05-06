@@ -14,19 +14,28 @@
     "detail_project": "https://github.com/Nathan24zz/NeuralNetwork",
     "image_class": "image fit",
     "image": "images/nn.png",
-    "desc": "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API. Take reference from <a href='https://github.com/karpathy/micrograd'>Karpathy Github</a>"
+    "desc": "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API. Take reference from <a href='https://github.com/karpathy/micrograd'>Karpathy Github</a>",
+    "detail_desc_1": "",
+    "detail_desc_2": "This project is inspired by Andrej Karpathy's project named <b>micrograd</b> in order to understand the fundamental of Neural Networks. It is a minimalistic autograd engine implemented in Python. Autograd engine, short for automatic differentiation engine, is a crucial components in modern machine learning frameworks for computing gradients automatically. This project is built around a tiny computational graph, representing mathematical operations as nodes and their inputs and outputs as edges. By propagating gradients backward through this graph using the chain rule of calculus, it computes gradients efficiently for arbitrary functions composed of basic mathematical operations. This project will also help beginners and enthusiasts gain insights into how autograd engines work under the hood. At the end, there is also a comparison between this project and how to do it in PyTorch.",
+    "tech": "Python, PyTorch"
 }, {
     "date": "May 25, 2023",
     "title": "Keypoint RCNN Training",
     "detail_project": "https://github.com/Nathan24zz/keypoint_rcnn_training_pytorch",
     "image_class": "image fit4large",
     "image": "images/keypoint.jpg",
-    "desc": "Train a Custom Keypoint Detection Model for humanoid robot with PyTorch."
+    "desc": "Train a Custom Keypoint Detection Model for humanoid robot with PyTorch.",
+    "detail_desc_1": "",
+    "detail_desc_2": "By default, PyTorch provides a Keypoint RCNN model which is pre-trained to detect 17 keypoints of the human body (nose, eyes, ears, shoulders, elbows, wrists, hips, knees and ankles). I fine tune the model using custom dataset that contains 6 keypoints of humanoid robot (head, trunk, right hand, left hand, right foot, left foot). Training keypoint estimation is a little bit harder than training object detection because the data has different format depending on the amount of the keypoint. Some of the framework are also only for human pose estimation that consist 17 keypoints so if we want to train with different keypoints, we need to fix it first before we can train the model. The custom dataset is a combination of NimbRo's HumanoidRobotPose dataset and my own dataset. This project is used for my <a href='./index.html'> undergraduate final project</a> and take reference from <a href='https://github.com/AIS-Bonn/HumanoidRobotPoseEstimation'>Nimbro's HumanoidRobotPoseEstimation</a>.",
+    "tech": "Python, PyTorch, Transfer Learning"
 }, {
     "date": "June 17, 2022",
     "title": "rePLASC",
     "detail_project": "https://github.com/Arnolds18/C22-CE01",
     "image_class": "image fit",
     "image": "images/replasc.png",
-    "desc": "An app to increase public awareness about plastic waste and decreasing gas emission."
+    "desc": "An app to increase public awareness about plastic waste and decreasing gas emission.",
+    "detail_desc_1": "",
+    "detail_desc_2": "In this Company based Capstone Project of Bangkit Academy 2022 collaborating with Indosat Ooredoo Hutchison, my team managed to make an application with the theme of plastic waste and carbon, which is Replasc. Due to I am a Machine Learning Cohort, I am in charge of making machine learning model for classifying plastic waste in this project. Replasc is an Android app to increase public awareness about plastic waste and decreasing gas emission. There are some features in this app: <ul class='alt'> <li>Plastic waste classification into three classes (PET, HDPE, and other)</li> <li>Point system for collected plastic waste</li> <li>Maps to drop the plastic waste at the collection booth</li> </ul>",
+    "tech": "Python, TensorFlow, Transfer Learning"
 }]
