@@ -58,4 +58,44 @@
     "detail_desc_1": "",
     "detail_desc_2": "In this Company based Capstone Project of Bangkit Academy 2022 collaborating with Indosat Ooredoo Hutchison, my team managed to make an application with the theme of plastic waste and carbon, which is Replasc. Due to I am a Machine Learning Cohort, I am in charge of making machine learning model for classifying plastic waste in this project. Replasc is an Android app to increase public awareness about plastic waste and decreasing gas emission. There are some features in this app: <ul class='alt'> <li>Plastic waste classification into three classes (PET, HDPE, and other)</li> <li>Point system for collected plastic waste</li> <li>Maps to drop the plastic waste at the collection booth</li> </ul>",
     "tech": "Python, TensorFlow, Transfer Learning"
+}, {
+    "date": "Mar 31, 2023",
+    "title": "Dummy 1",
+    "detail_project": "https://github.com/Nathan24zz/PoseComparison",
+    "image_class": "image fit",
+    "image": "images/pic02.jpg",
+    "desc": "This project is used to compare poses and provide the score afterward.",
+    "detail_desc_1": "",
+    "detail_desc_2": "This project is used to compare poses and provide the score afterward.",
+    "tech": "Python, Jupyter Notebook"
+}, {
+    "date": "June 17, 2022",
+    "title": "Dummy 2",
+    "detail_project": "https://github.com/Arnolds18/C22-CE01",
+    "image_class": "image fit",
+    "image": "images/replasc.png",
+    "desc": "An app to increase public awareness about plastic waste and decreasing gas emission.",
+    "detail_desc_1": "",
+    "detail_desc_2": "In this Company based Capstone Project of Bangkit Academy 2022 collaborating with Indosat Ooredoo Hutchison, my team managed to make an application with the theme of plastic waste and carbon, which is Replasc. Due to I am a Machine Learning Cohort, I am in charge of making machine learning model for classifying plastic waste in this project. Replasc is an Android app to increase public awareness about plastic waste and decreasing gas emission. There are some features in this app: <ul class='alt'> <li>Plastic waste classification into three classes (PET, HDPE, and other)</li> <li>Point system for collected plastic waste</li> <li>Maps to drop the plastic waste at the collection booth</li> </ul>",
+    "tech": "Python, TensorFlow, Transfer Learning"
+}, {
+    "date": "Mar 31, 2023",
+    "title": "Dummy 3",
+    "detail_project": "https://github.com/Nathan24zz/PoseComparison",
+    "image_class": "image fit",
+    "image": "images/pic02.jpg",
+    "desc": "This project is used to compare poses and provide the score afterward.",
+    "detail_desc_1": "",
+    "detail_desc_2": "This project is used to compare poses and provide the score afterward.",
+    "tech": "Python, Jupyter Notebook"
+}, {
+    "date": "June 17, 2022",
+    "title": "Dummy 4",
+    "detail_project": "https://github.com/Arnolds18/C22-CE01",
+    "image_class": "image fit",
+    "image": "images/replasc.png",
+    "desc": "An app to increase public awareness about plastic waste and decreasing gas emission.",
+    "detail_desc_1": "",
+    "detail_desc_2": "In this Company based Capstone Project of Bangkit Academy 2022 collaborating with Indosat Ooredoo Hutchison, my team managed to make an application with the theme of plastic waste and carbon, which is Replasc. Due to I am a Machine Learning Cohort, I am in charge of making machine learning model for classifying plastic waste in this project. Replasc is an Android app to increase public awareness about plastic waste and decreasing gas emission. There are some features in this app: <ul class='alt'> <li>Plastic waste classification into three classes (PET, HDPE, and other)</li> <li>Point system for collected plastic waste</li> <li>Maps to drop the plastic waste at the collection booth</li> </ul>",
+    "tech": "Python, TensorFlow, Transfer Learning"
 }]
