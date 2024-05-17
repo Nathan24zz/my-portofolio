@@ -1,5 +1,4 @@
-- Redirect view project button to more detailed explanation.
 - Make page to write something that I learn.
-
+- Explain about the website 
 
 - In project page, make date update when update the content
