@@ -14,21 +14,21 @@ var amount_of_page = 0;
 
 
 function loadPosts() {
-    console.log("active_page:", active_page);
     // get html for posts class
     const container = document.querySelector('body #wrapper #main .posts');
     // reset inner html
     container.innerHTML = '';
 
-    // 
+    // display post according to page
+    // get start index
     const start_index = (active_page-1) * post_per_page;
+    // get end index
     var end_index = active_page * post_per_page - 1;
+    // safety if to make sure end index does not surpass the amount of data 
     if (end_index > data_global.length - 1) {end_index = data_global.length - 1;}
-    console.log("start_index:", start_index, "end_index:", end_index)
-
+    // loop to change inner html of class posts
     for (var i=start_index; i<=end_index; i++) {
         const result = data_global[i];
-        console.log("link", result.detail_project);
         const content = `
             <article>
                 <header>
@@ -47,7 +47,7 @@ function loadPosts() {
         container.innerHTML += content;
     }
 
-    // assign function to each
+    // assign function to each view button
     var view_buttons = document.getElementsByClassName("button view");
     for (var i=0; i < view_buttons.length ; i++) {
         view_buttons[i].addEventListener("click", function (event) {
@@ -57,7 +57,7 @@ function loadPosts() {
     }
 };
 
-function updateActivePage(){
+function updateFooter(){
     const footer = document.querySelector('body #wrapper #main footer');
     // loop as many times as amount of page to create page number
     var page_number_html = '';
@@ -84,56 +84,56 @@ function addFuncFooter() {
     // assign function to each button in the footer section
     // get button previous
     var prev_button = document.getElementsByClassName("previous");
+    // when the prev button is clicked,
     // change active page to previous page and load suitable post
     prev_button[0].addEventListener("click", function (event) {
         if (active_page > 1) {
-            console.log('prev button click');
             active_page = active_page - 1;
             loadPosts();
-            updateActivePage();
+            updateFooter();
         }
     })
 
     // get button next
     var next_button = document.getElementsByClassName("next");
+    // when the next button is clicked,
     // change active page to next page and load suitable post
     next_button[0].addEventListener("click", function (event) {
         if (active_page < amount_of_page) {
-            console.log('next button click');
             active_page = active_page + 1;
             loadPosts();
-            updateActivePage();
+            updateFooter();
         }
     })
 
     // get page number button 
     var page_number_buttons = document.getElementsByClassName("page");
+    // when the page number button is clicked,
     // change active page to next page and load suitable post
     for (var i=0; i < page_number_buttons.length; i++) {
         page_number_buttons[i].addEventListener("click", function (event) {
-            console.log('page button', this.id, 'click');
-            // 
+            // prevent active_page become string
             active_page = Number(this.id);
             loadPosts();
-            updateActivePage();
+            updateFooter();
         })
     }
 }
 
 
-// data for posts
+// get json data when page is load
 fetch("./assets/data/post_data.json")
     .then(res => res.json())
     .then(data => {
-        console.log("fetch called");
         data_global = data;
 
         // PAGE NUMBER
         // define max post every page
         // calculate amount of page that is needed
         amount_of_page = Math.floor(data_global.length/post_per_page);
+        // add 1 page if there is a remainder  
         if (data_global.length % post_per_page != 0) {amount_of_page = amount_of_page + 1};
-        updateActivePage();
-        
+
+        updateFooter();
         loadPosts();
     });
